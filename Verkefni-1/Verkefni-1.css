@@ -1,0 +1,35 @@
+a:visited{color: red;
+}
+a:hover{
+    color: yellow;
+}
+a:active{color: green;
+}
+body{
+    background: rgb(221, 221, 221);
+    border:5px solid red;
+    padding: 10px;
+}
+.klasi1{
+    color:navy;
+    text-align:center;
+}
+.klasi2{
+    color: pink;
+}
+
+.klasi3{
+    color: navy;
+}
+.klasi4{
+    color: mediumvioletred;
+}
+.klasi5{color: purple;
+    font-style: italic;
+}
+.klasi6{color: salmon;
+}
+.klasi7{
+    color:royalblue ;
+    text-align:center;
+}
