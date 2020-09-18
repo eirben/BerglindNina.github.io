@@ -1,0 +1,109 @@
+.graenkassi{
+    border:1px solid green;
+}
+.raudurkassi{
+    border: 5px solid red;
+    padding: 40px;
+    margin: 10px;
+}
+.blarbrotakassi{
+    border: 5px dashed navy;
+    padding: 20px;
+    margin: 30px;
+}
+.blarkassi{
+    color: navy;
+}
+.raudurkassi{
+    color: red;
+}
+.box1 li{
+    display:block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed green
+    }
+.box2 li{
+    display: inline;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed blue;
+}
+.box3 li{
+    display: inline-block;
+    padding: 1em;
+    margin: 1em;
+    border: 3px dashed red;
+}
+.kassi{
+    border: 1px solid black;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.l{
+    font-size: 36px;
+    margin: 15px;
+    float: left;
+}
+.mynd{
+    margin: 1px;
+    float: left;
+}
+
+
+.group::before
+.group::after{
+    content: "";
+    display:table
+}
+.group::after{
+    clear: both;
+}
+.group{
+    clear: both;
+    *zoom: 1;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+  }
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+	background-color: cyan; 
+}
+.box {
+    display: flex;
+    align-items: center;
+	font-size: 1.2em;
+	height: 5em;
+}
+.row{
+    display:flex;
+    flex-flow: row-reverse;
+}
+.col{
+    display: flex;
+    flex-flow: column-reverse;
+}
+section div{
+    display: flex;
+    flex-grow: 1;
+}
+
