@@ -1,0 +1,52 @@
+header,nav,aside,main,footer,article{
+    border: 0.5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "h h h h h"
+    "n n n n n"
+    "v a a a ha"
+    "f f f f f";
+}
+.haus{
+    grid-area: h;
+}
+.valstika{
+    grid-area: n;
+}
+.vinstri{
+    grid-area: v;
+}
+.adal{
+    grid-area: a;
+}
+.haegri{
+    grid-area: ha;
+}
+.fotur{
+    grid-area: f;
+}
+h1{
+    color: gold;
+}
+.hlekkir{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 4em;
+}
+header{
+    text-align:center;
+    font-family: fantasy;
+}
+a:visited{color: red;
+}
+a:hover{
+    color: plum;
+}
+a:active{color: blue;
+}
