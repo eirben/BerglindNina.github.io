@@ -1,0 +1,37 @@
+header,nav,main,footer,article{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "h h h h h h h h "
+    "v v v v a a a a "
+    "f f f f f f f f";
+}
+.haus{
+    grid-area: h;
+}
+.valstika{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-area: n;
+}
+.vinstri{
+    grid-area: v;
+}
+.adal{
+    grid-area: a;
+}
+.fotur{
+    grid-area: f;
+}
+header, nav{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: fantasy;
+    grid-template-columns: 1fr
+}
