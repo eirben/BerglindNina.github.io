@@ -1,0 +1,72 @@
+body{
+    background: lightslategray;
+}
+
+@media screen and (min-width:37.5em){
+    body{
+        background: lightslategray;
+        display: grid;
+        grid-template-areas: 
+        "h"
+        "n"
+        "a"
+        "v"
+        "ha"
+        "f"
+    }
+}
+@media screen and (min-width:48em){
+    body{
+        background: darkgray;
+        display: grid;
+        grid-template-areas: 
+        "h h"
+        "n n"
+        "v a"
+        "ha a"
+        "f f"
+    }
+}
+@media screen and (min-width:60em){
+    body{
+        background: lightgray;
+        display: grid;
+        grid-template-areas: 
+        "h h h h"
+        "n n n n"
+        "v a a ha"
+        "f f f f"
+    }
+}
+.haus{
+    grid-area: h;
+    background: lightblue;
+}
+.valstika{
+    grid-area: n;
+    background: indianred;
+}
+.vinstri{
+    grid-area: v;
+    background: pink;
+}
+.adal{
+    grid-area: a;
+    background: plum;
+}
+.haegri{
+    grid-area: ha;
+    background: salmon;
+}
+.fotur{
+    grid-area: f;
+    background: skyblue;
+}
+.hlekkir{
+
+    grid-template-columns: repeat(5, 1fr) ;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 4em;
+}
