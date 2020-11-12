@@ -12,4 +12,4 @@ Frá hátalaranum fer hann svo í GND
 ### Mynd
 ![mynd tinkercad](/Simon Says/ Screenshot 2020-10-15 at 14.24.44.png)
 ### Mynd
-![mynd] (/
+![mynd tinkercad] (/Simon Says/ Simon Says.svg)
