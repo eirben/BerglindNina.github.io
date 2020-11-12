@@ -9,5 +9,7 @@ gula í 8, blái í 9, grænn í 10 og rauður í 11
 Vírinn sem er hinumeginn sameinast allir í + og fara þeira svo saman í GND
 Vírinn fyrir hátalarann fer frá 12 og svo að hátalaranum
 Frá hátalaranum fer hann svo í GND
-### Hönnun
+### Mynd
 ![mynd tinkercad](/Simon Says/ Screenshot 2020-10-15 at 14.24.44.png)
+### Mynd
+![mynd] (/
