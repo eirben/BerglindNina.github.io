@@ -1,3 +1,3 @@
 ### Lýsing á verkefni 5 
 ### Hönnun
-![mynd tinkercad](/Simon Says/ Screenshot 2020-11-12 at 15.10.48.svg)
+![mynd tinkercad](/Simon Says/ Screenshot 2020-10-15 at 14.24.44.png)
