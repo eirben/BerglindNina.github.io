@@ -10,7 +10,7 @@ Vírinn sem er hinumeginn sameinast allir í + og fara þeira svo saman í GND
 Vírinn fyrir hátalarann fer frá 12 og svo að hátalaranum
 Frá hátalaranum fer hann svo í GND
 ### Mynd
-![mynd tinkercad](/Simon Says/ Screenshot 2020-10-15 at 14.24.44.png)
+![mynd tinkercad](/Simon Says/Screenshot 2020-10-15 at 14.24.44.png)
 ### Lýsing á boxi
 Ég bý til box og passa að batterí og Arduino komist fyrir svo fyrir ofan kemur brauðbrettið 
 Ég geri göt fyrir takkana og ljósin 
